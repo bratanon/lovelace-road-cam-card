@@ -31,6 +31,10 @@ export class RoadCamCard extends LitElement {
     this.loadCardHelpers();
   }
 
+  public getCardSize(): number {
+    return 3;
+  }
+
   protected firstUpdated(): void {
     this._first_updated = false;
   }
