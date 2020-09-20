@@ -1,0 +1,8 @@
+views:
+  - title: Dev
+    cards:
+      - type: custom:road-cam-card
+        image: https://api.trafikinfo.trafikverket.se/v1/Images/TrafficFlowCamera_39635270.Jpeg?type=fullsize
+
+      - type: custom:road-cam-card
+        image: https://api.trafikinfo.trafikverket.se/v1/Images/TrafficFlowCamera_39635273.Jpeg?type=fullsize

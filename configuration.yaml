@@ -1,0 +1,13 @@
+default_config:
+
+demo:
+
+lovelace:
+  mode: storage
+  dashboards:
+    lovelace-yaml:
+      mode: yaml
+      title: Test
+      filename: lovelace.yaml
+
+browser_mod:
