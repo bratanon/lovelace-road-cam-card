@@ -7,7 +7,12 @@ lovelace:
   dashboards:
     lovelace-yaml:
       mode: yaml
-      title: Test
+      title: yaml
       filename: lovelace.yaml
 
-browser_mod:
+camera:
+  - platform: generic
+    still_image_url: https://api.trafikinfo.trafikverket.se/v1/Images/TrafficFlowCamera_39635270.Jpeg?type=fullsize
+
+  - platform: generic
+    still_image_url: https://api.trafikinfo.trafikverket.se/v1/Images/TrafficFlowCamera_39635273.Jpeg?type=fullsize
