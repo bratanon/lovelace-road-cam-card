@@ -1,8 +1,12 @@
-road-cam-card
+Road Cam Card
 =================
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
+[![GH-release](https://img.shields.io/github/v/release/bratanon/lovelace-road-cam-card.svg?style=flat-square)](https://github.com/bratanon/lovelace-road-cam-card/releases)
+[![GH-downloads](https://img.shields.io/github/downloads/bratanon/lovelace-road-cam-card/total?style=flat-square)](https://github.com/bratanon/lovelace-road-cam-card/releases)
+[![GH-last-commit](https://img.shields.io/github/last-commit/bratanon/lovelace-road-cam-card.svg?style=flat-square)](https://github.com/bratanon/lovelace-road-cam-card/commits/master)
+[![GH-code-size](https://img.shields.io/github/languages/code-size/bratanon/lovelace-road-cam-card.svg?color=red&style=flat-square)](https://github.com/bratanon/lovelace-road-cam-card)
 
-Show an image and use browser_mod to show it larger on tap.
+Card to display an image that is updated not that frequent as normal states are.
 
 ## Install
 
