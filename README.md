@@ -14,7 +14,7 @@ While this plugin can be installed by HACS, it is not included in the default re
 2. Install the plugin from the Overview page.
 
 ### Manual install
-1. Download and copy `road-cam-card.js` from the [latest release](https://github.com/bratanon/lovelace-conditional-entity-row/releases/latest) into your `config/www` directory.
+1. Download and copy `road-cam-card.js` from the [latest release](https://github.com/bratanon/lovelace-road-cam-card/releases/latest) into your `config/www` directory.
 
 2. Add a reference to `road-cam-card.js` inside your `ui-lovelace.yaml` or through the raw config editor interface.
 
@@ -29,23 +29,18 @@ While this plugin can be installed by HACS, it is not included in the default re
 ### Options
 
 #### Row options
-| Name | Type | Default | Description |
-|------|------|---------|-------------|
-| type | string | **required** | `custom:road-cam-card.js`
+| Name  | Type | Default | Description |
+|-------|------|---------|-------------|
+| type  | string | **required** | `custom:road-cam-card.js`
+| title | string | **required** | A card title
 | image | string | **required** | The URL to an image
 
 ### Example usage
 
 ```yaml
  - type: custom:road-cam-card
+   title: Kålleredsmotet norrut
    image: https://api.trafikinfo.trafikverket.se/v1/Images/TrafficFlowCamera_39635270.Jpeg?type=fullsize
-```
-
-## Dev
-In order to run the dev container, you will need to clone the browser mod.
-
-```sh
-git clone git@github.com:thomasloven/hass-browser_mod.git
 ```
 
 ## License
